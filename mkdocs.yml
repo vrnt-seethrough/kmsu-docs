@@ -1,3 +1,6 @@
+site_name: KM SaaS UI/UX API documentation
+
 pages:
 - Home: index.md
 - BDD Utility Suite: bdd-utility-suite.md
+
