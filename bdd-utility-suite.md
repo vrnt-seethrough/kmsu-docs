@@ -27,6 +27,10 @@ this.Given(/^I am viewing the private information section of a content item with
 
     } );
 ```
+
+
+
+
 ##Search utils
 
 The search utils provide methods for performing searches and retrieving metadata about searches which have been performed.
