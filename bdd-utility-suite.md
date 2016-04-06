@@ -12,3 +12,18 @@ Skip to one of the fragments of the currently viewed article. This will result i
 |--|--|--|
 | section | Private / public / tag / tags / file | Text contained in one of the "Skip To:" links |
 
+Example:
+
+```
+this.Given(/^I am viewing the private information section of a content item with title "([^"]*)"$/, function ( title, callback) {
+
+        async.series( [
+
+            done => this.search.performSearch( title, 999, done ),
+            done => this.searchResults.selectResult( title, done ),
+            done => this.articleView.skipTo( "private", done )
+
+        ], callback );
+
+    } );
+```
