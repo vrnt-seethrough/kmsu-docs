@@ -45,9 +45,9 @@ this.Given(/^each item's synopsis and content\-type icon are also displayed$/, f
                         "Couldn't find a match between the search result type (" + item.classes + ") and the api type (" + apiItem.docTypes + ")"
 
                     );
-                    callback();
 
                 } );
+                callback();
 
             }
 
