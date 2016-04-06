@@ -18,6 +18,8 @@ So far the included properties are limited to:
 | title | Changing Customer's Address | The title of the search result |
 | docTypes | [ "article" ], [ "knowledgedocument", "faq" ] | The types of the search result |
 | isFeatured | true, false, undefined | Whether or not the item is "featured" content |
+
+
 Example:
 
 ```
