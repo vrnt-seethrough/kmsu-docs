@@ -1,6 +1,6 @@
 #Search utils
 
-The search utils provide methods for performing searches and retrieving metadata about searches which have been performed.
+The search utils provide methods for performing searches and retrieving metadata about searches which have been performed. This utility object is available within the scenario context as <code>this.search</code>
 
 ##fetchLastQueryData( callback )
 
