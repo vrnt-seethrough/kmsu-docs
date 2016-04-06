@@ -27,3 +27,21 @@ this.Given(/^I am viewing the private information section of a content item with
 
     } );
 ```
+##Search utils
+
+The search utils provide methods for performing searches and retrieving metadata about searches which have been performed.
+
+###fetchLastQueryData( callback )
+
+Performs the last executed UI search against the API and returns the expanded data (first node only).
+
+###fetchLastQueryMetadata( callback )
+
+Performs the last executed UI search against the API and returns metadata about the results.
+
+####Results
+| Property | Examples | Description |
+|-|-|-|
+| totalPages | 4 | Number of total pages of results given the current search page size |
+| totalItems | 34 | Number of items in total (not just for the current page) |
+| page | 0 | Zero-based page number of the current set of results |
