@@ -17,6 +17,7 @@ So far the included properties are limited to:
 | synopsis | To change a customer's address: Identify the customer Complete data protection verification. Click on 'Edit Customer' on the customer's entry on the left panel. Select to edit Home or Work address. On the pop-up click on 'Search for Address' Search for the... | The synopsis of a search result |
 | title | Changing Customer's Address | The title of the search result |
 | docTypes | [ "article" ], [ "knowledgedocument", "faq" ] | The types of the search result |
+| isFeatured | true, false, undefined | Whether or not the item is "featured" content |
 Example:
 
 ```
