@@ -2,4 +2,6 @@
 
 These documents describe the API of the UI/UX project, including test APIs and implementation patterns.
 
-[BDD utility suite](./bdd-utils)
+##Main sections
+
+[BDD utility suite](./bdd-utility-suite.md)
