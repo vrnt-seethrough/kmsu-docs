@@ -39,6 +39,10 @@ The search utils provide methods for performing searches and retrieving metadata
 
 Performs the last executed UI search against the API and returns the expanded data (first node only).
 
+###fetchLastQueryItems( callback )
+
+Performs the last executed UI search against the API and returns information about the matched results.
+
 So far the included properties are limited to:
 
 | Property | Examples | Description |
